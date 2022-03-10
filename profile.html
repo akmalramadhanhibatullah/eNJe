@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+        <!-- AOS -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Logo Title -->
+    <link rel="icon" href="img/nj.png" type="image/x-icon" />
+
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+
+    <title>landing page</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container-md">
+        <a class="navbar-brand" href="#"> <img src="img/nj.png" alt="nurul jadid" width="30" class="d-inline-block align-text-top me-3" /> NURUL JADID</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item mx-1">
+              <a class="nav-link" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item mx-1">
+              <a class="nav-link active" aria-current="page" href="profile.html">PROFILE</a>
+            </li>
+            <li class="nav-item mx-1">
+              <a class="nav-link "  href="service.html">SERVICE</a>
+            </li>
+            <li class="nav-item mx-1">
+              <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+          </ul>
+
+          <div class="tombol">
+            <a href="https://psb.nuruljadid.net/login" class="btn btn-sm btn-outline-light router-link-active">Login</a>
+            <a class="btn btn-danger" href="https://psb.nuruljadid.net/register" role="button">Sing Up</a>
+          </div>
+      </div>
+      </div>
+    </nav>
+    <!-- akhir Navbar -->
+
+    <!-- Style CSS -->
+    <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      background-color: rgb(243, 243, 243);
+    }
+
+    h1 {
+      padding-top: 80px;
+      padding-bottom: 40px;
+      text-align: center;
+    }
+    
+    h1.card-title {
+      margin-top: px;
+    }
+    
+    p.card-text {
+      color: rgb(31, 31, 31);
+    }
+    .navbar-brand {
+      font-weight: 900;
+      font-size: 20px;
+    }
+    
+    .nav-link {
+      font-size: 16px;
+    }
+    
+    .nav-link.active {
+      font-weight: 700;
+    }
+    
+    .tombol {
+      text-align: center;
+    }
+    
+    .button-secundary {
+      width: 133px;
+      height: 40px;
+      background-color: #fff;
+      color: rgb(0, 0, 0);
+      border: none;
+      font-size: 16px;
+      font-weight: 700;
+      text-align: center;
+    }
+    
+    .button-primary {
+      width: 133px;
+      height: 40px;
+      background-color: transparent;
+      color: #fff;
+      border: none;
+      font-size: 16px;
+      font-weight: 400;
+    }
+    
+    .tengah {
+      text-align: center;
+      width: 100%;
+    }
+    
+    .kartu-tutor {
+      width: 10%;
+      margin: 0 auto;
+    }
+    
+    .kartu-tutor a {
+      text-decoration: none;
+    }
+    
+    .kartu-tutor img {
+      width: 20%;
+      height: 20%;
+      border-radius: 50%;
+    }
+    
+    .kartu-tutor p {
+      font-family: "comic sans ms";
+      font-weight: 800;
+      font-size: 25px;
+      text-align: center;
+      color: black;
+    }
+    
+    footer {
+      padding: 30px 0;
+      background-color: #333;
+      margin-top: 50px;
+      color: #fff;
+      text-align: center;
+    }
+    section {
+      background-color: rgb(243, 243, 243);
+    }
+    
+    .container {
+      padding-top: 30px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    
+    @media screen and (max-width: 768px) {
+      .container {
+        width: 90%;
+      }
+      header h1 {
+        text-align: center;
+        float: none;
+      }
+      header ul {
+        text-align: center;
+        float: none;
+      }
+      .box .col-4 {
+        width: 100%;
+        float: none;
+        margin-bottom: 20px;
+      }
+      .tombol {
+        width: 100%;
+        float: none;
+        text-align: center;
+      }
+      .contact {
+        width: 100%;
+        float: none;
+        text-align: center;
+      }
+    }
+    </style>
+    <!-- profile -->
+
+    <h1>
+      Profil singkat Pondok Pesantren <br />
+      NURUL JADID Paiton Probolinggo
+    </h1>
+    <hr />
+    <br />
+    <br />
+    <div class="header-container-md justify-content-center" >
+      <div class="row text-center">
+        <div class="col" style="width:1000px;">
+    <img src="img/" alt="" class="">
+  </div>
+</div>
+</div>
+    <section id="pesantren-md">
+    <div class="container">
+      <div class="row">
+      <img src="img/PP.png" alt="" >
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+<div class="sejarah-container-md">
+    <ul>
+      <li>
+        <p><h4><strong>A. Sejarah PP Nurul Jadid</strong></h4></p>
+      </li>
+    </ul>
+    <br>
+    <br>
+    <p>Pesantren Nurul Jadid didirikan pada tahun 1948 tepatnya tanggal 12 November dan jika dihitung melalui bulan islam untuk pondok pesantren ini berdiri tepat di hari Jumat, tanggal 10 Muharam tahun 1368 H dan perdiri dari pondok pesantren ini adalah KH. Zaini Mun’im.</p>
+        <p>Pondok pesantren ini menggunakan sistem salafiah yang dimana di awal pengembangannya menggunakan pengembangan diniyah salafiyah dan selain menggunakan pengembangan diniyah salafiyah Pondok Pesantren Nurul Jadid mengadopsi sistem modern namun pondok pesantren ini tidak terikat dengan organisasi politik manapun.
+        </p>
+        <p>
+            Pada awal berdirinya Pondok Pesantren Nurul Jadid tidak terlepas dengan terjadinya perang gerilya untuk melawan penjajah belanda kemudian KH. Zaini Mun’im merupakan salah satu pejuang pejuang dalam barisan pembela tanah air dan beliau juga merupakan pimpinan dari pasukan sabilillah yang berjuang melawan Belanda karena hal tersebutlah beliau menjadi incaran para penjajah Belanda.
+        </p>
+        <br>
+        <br>
+        </div>
+        </div>
+
+
+        <div class="container">
+          <div class="row">
+<img src="img/4.jpg" alt="santri putri SMA NJ">
+</div>
+</div>
+<br>
+<div class="container">
+  <div class="row">
+<p>Dengan kondisi seperti itulah yang pada akhirnya KH. Zaini Mun’im memutuskan untuk berhijrah dan berlayar dari Madura ke tanah Jawa dan berlabuh ke Desa Tanjung yang saat ini daerah tersebut bernama Karangayar.</p>
+<br>
+<p>
+    Pada saat beliau sampai di Desa Tanjung atau Karanganyar beliau tidak memiliki niatan untuk membangun sebuah lembaga pendidikan yang berbasis pondok pesantren namun beliau hanya ingin menjauhkan diri dari keserakahan dan kekejaman dari kolonial belanda. Justru niat beliau adalah ingin menyebarkan Agama islam di desa tersebut dengan bantuan dari Departemen Agama setempat, namun hal tersebut tertunda dikarenakan beliau mendapatkan titipan 2 orang santri yang belajar mengaji dan belajar ilmu agama kepada beliau.</p>
+    <br>
+<p>
+Bermula dengan titipan santri tersebut maka beliau bertekad untuk menatap di Desa Tanjung yang sekarang terkenal dengan Desa Karanganyar dan perkembangan dari tahun ke tahun yang membuat belaiu akhirnya memutuskan untuk mendirikan pondok pesantren dan beliau memberikan nama pondok pesantren tersebut dengan nama Nurul Jadid yang memiliki arti cahaya baru.
+</p>
+<br>
+<p>Seperti pada umumnya pendirian pondok pesantren yang dimana memiliki prinsip, visi dan misi serta tujuan berdirinya pondok pesantren dan beliau sendiri memiliki prinsip dalam proses berdirinya pondok pesantren dimana KH. Zaini Mun’im tidak hanya ingin menecetak seorang santri saja melainkan beliau juga ingin mencetak insan yang beriman dan punya komitmen tinggi terhadap perjuangan, di mana pun mereka berada dan sebagai apa pun.</p>
+</div>
+</div>
+
+<ul>
+    <li> <p><h4><strong>B. Sistem Pendidikan</strong></h4></p></li>
+</ul>
+
+</div>
+</div>
+</section>
+
+    <!-- Projects -->
+    <section id="projects" style="background-color:#ffffff ;">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h2>Sekolah</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/sekolah/SMK_Nurul_Jadid_Probolinggo.jpg" class="card-img-top" alt="smk">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/sekolah/MANJ.jpg" class="card-img-top" alt="smk">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/sekolah/SMANJ.jpg" class="card-img-top" alt="smk">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/sekolah/SMP NJ.jpg" class="card-img-top" alt="smk">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="img/sekolah/MTSNJ.jpg" class="card-img-top" alt="smk">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- akhir project -->
+              </div>
+            </div>
+          </div>
+        </div>
+    <!-- akhir profile -->
+    
+        <!-- fotter -->
+        <footer>
+          <div class="container-footer">
+            <small>Copyright &copy; 2022 - Akmalramadhan. All Rights Reserved. </small>
+          </div>
+        </footer>
+        <!-- Akhir fotter -->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  </body>
+</html>
